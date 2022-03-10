@@ -1,0 +1,25 @@
+#:kivy 2.1.0
+
+<MainUI>:
+    canvas:
+        Rectangle:
+            pos: 0, root.height - 70
+            size: root.width, 10
+
+    Label:
+        font_size: 70
+        text_size: None, None
+        pos: (self.width/1.5), root.height - (self.height/1.25)
+        text: "PhaZed"
+            
+    Label:
+        font_size: 70  
+        center_x: root.width / 4
+        top: root.top - 70
+        text: "MW"
+        
+    Label:
+        font_size: 70  
+        center_x: root.width * 3 / 4
+        top: root.top - 70
+        text: "IW"
